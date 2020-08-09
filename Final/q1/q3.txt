@@ -1,0 +1,4 @@
+Original merge sort is O(nlogs) since T(n) = T(n/2) + O(n). But the algorithm in part 2 do min max for left sub array. So from aT(n/b) + f(n) equation where a dividing number and b subproblem size a=2 and b=2. minmax algorithm works with O(n/2). So we get O(nlogs)+ O(n/2) = O(n)
+
+150140011
+O. Kürşat Karayılan
